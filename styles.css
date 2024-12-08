@@ -16,6 +16,41 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
+    padding-bottom: 100px;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.project {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact {
+    background-color: #f0f0f0;
 }
 
 footer {
